@@ -1,0 +1,19 @@
+version: '3.7'
+
+x-aws-args: &aws-args
+  AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+  AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+
+services:
+  app:
+    build: .
+    ports:
+      - '3000:3000'
+      - '3002:3002'
+    command: yarn dev --host 172.22.0.2
+    working_dir: /app
+    environment:
+      <<: *aws-args
+    volumes:
+      - .:/app
+      - /node_modules
