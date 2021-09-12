@@ -1,6 +1,7 @@
 # Welcome to serverless-express-starter 👋
 [![Version](https://img.shields.io/npm/v/serverless-express-starter.svg)](https://www.npmjs.com/package/serverless-express-starter)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/.github/LICENSE.md)
+[![Test](https://github.com/dianafreeman/serverless-express-starter/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/dianafreeman/serverless-express-starter/actions/workflows/build-and-test.yml)
 
 > Dianabook Serverless Starter - AWS Lambda & Serverless framework, dockerized for node development
 
