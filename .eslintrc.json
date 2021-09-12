@@ -29,5 +29,11 @@
         "ignoreRegExpLiterals": true
       }
     ]
-  }
+  },
+  "overrides": [{
+    "files": "*.spec.js",
+    "rules": {
+      "func-names": [ "off"]
+    }
+  }]
 }

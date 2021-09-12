@@ -14,18 +14,18 @@ help: ## This help command. Anything prepended with a double hash will be displa
 build: ## Builds Node images & install dependencies
 	@docker-compose build
 
-dev: build ## Start a serverless development environment
+dev: build ## Start a serverless dev env
 	@docker-compose up
 
-debug: build ## Start a serverless development environment
+debug: build ## Start a dev env with SLS DEBUG environment
 	@docker-compose run --rm -e SLS_DEBUG=* app
 
-sh:
+sh: ## Start an interactive shell in the app container
 	@docker-compose run --rm app sh
 
-test-unit:
+tests: build ## run unit tests in the app container
 	@docker-compose run --rm app yarn test
 
-format:
+format: build ## apply linting rules in the app container
 	@docker-compose run --rm app yarn format
 
