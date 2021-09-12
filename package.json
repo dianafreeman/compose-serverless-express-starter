@@ -1,5 +1,5 @@
 {
-  "name": "serverless-express-starter",
+  "name": "compose-serverless-express-starter",
   "version": "1.0.0",
   "description": "Dianabook Serverless Starter",
   "main": "./app.js",

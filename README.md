@@ -1,9 +1,9 @@
-# Welcome to serverless-express-starter 👋
+# DianaBook Serverless Starter 👋
 [![Version](https://img.shields.io/npm/v/serverless-express-starter.svg)](https://www.npmjs.com/package/serverless-express-starter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/.github/LICENSE.md)
 [![Test](https://github.com/dianafreeman/serverless-express-starter/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/dianafreeman/serverless-express-starter/actions/workflows/build-and-test.yml)
 
-> Dianabook Serverless Starter - AWS Lambda & Serverless framework, dockerized for node development
+> Dockerized development environment for AWS Lambda & Serverless framework function dev
 
 ## Install
 
@@ -11,7 +11,7 @@
 # with Docker
 make build
 
-#w ithout Docker
+# without Docker (Requires Node v12^)
 yarn install
 ```
 
@@ -36,7 +36,6 @@ yarn test
 ```
 
 
-
 ## Author
 
 👤 **Diana M Steakley-Freeman**
@@ -50,4 +49,4 @@ Give a ⭐️ if this project helped you!
 
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated  (in part) with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
