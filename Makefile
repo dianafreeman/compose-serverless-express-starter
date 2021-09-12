@@ -23,7 +23,7 @@ debug: build ## Start a dev env with SLS DEBUG environment
 sh: ## Start an interactive shell in the app container
 	@docker-compose run --rm app sh
 
-tests: build ## run unit tests in the app container
+tests: ## run unit tests in the app container
 	@docker-compose run --rm app yarn test
 
 format: build ## apply linting rules in the app container

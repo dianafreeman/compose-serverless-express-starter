@@ -13,5 +13,8 @@ jobs:
     - name: Checkout Files
       uses: actions/checkout@v2
 
+    - name: Build and Install
+      run: docker-compose build --no-cache
+
     - name: Run Tests
       run: make tests
