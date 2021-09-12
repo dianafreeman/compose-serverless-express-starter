@@ -8,14 +8,34 @@
 ## Install
 
 ```sh
+# with Docker
+make build
+
+#w ithout Docker
 yarn install
 ```
 
-## Run tests
+## Develop Locally
 
 ```sh
-make tests
+# with Docker
+make dev
+
+# without Docker (Requires Node v12^)
+yarn run dev
 ```
+
+## Run Tests
+
+```sh
+# with Docker
+make tests
+
+# Without Docker (Requires Node v12^)
+yarn test
+```
+
+
 
 ## Author
 
